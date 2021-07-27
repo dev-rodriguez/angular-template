@@ -1,0 +1,29 @@
+.principal-page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+.mat-card{
+
+}
+.mat-card:hover{
+    cursor: pointer;
+
+}
+
+.mat-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 100px;
+    width: 100%;
+    color: black;
+    margin:0;
+
+}
+.mat-card-image{
+    width: 450px;
+}
+
+

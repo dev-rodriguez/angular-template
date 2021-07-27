@@ -20,17 +20,17 @@
 
         <mat-divider></mat-divider>
 
-        <button mat-button class="menu-button">
-            <mat-icon >today</mat-icon>
-            <span>Reservar horas</span>
-        </button>
-        <button mat-button class="menu-button">
+        <button mat-button class="menu-button" (click)= showProfile()>
             <mat-icon>person</mat-icon>
             <span>Perfil</span>
         </button>
         <button mat-button class="menu-button">
+            <mat-icon >today</mat-icon>
+            <span>Resultados de exámenes</span>
+        </button>
+        <button mat-button class="menu-button">
             <mat-icon>info</mat-icon>
-            <span>Sobre nosotros</span>
+            <span>Mis horas Médicas</span>
         </button>
 
         <mat-divider></mat-divider>
@@ -42,8 +42,22 @@
 
     </mat-sidenav>
     <mat-sidenav-content>
-        <div class="content mat-elevation-z8">
-            Main content here!
+        <app-carousel *ngIf="carousel" class="desktop-carousel"></app-carousel>
+        <div *ngIf="!carousel" class="desktop-carousel">
+            <button mat-raised-button class="button-reserva-de-hora" >RESERVA DE HORA</button>
+            <button mat-raised-button class="button-telemedicina">TELEMEDICINA</button>
+            <button mat-raised-button class="button-meds-healthy">MEDS HEALTHY</button>
+            <button mat-raised-button class="button-meds-home">MEDS HOME</button>
+            <button mat-raised-button class="button-meds-market"><mat-icon>local_grocery_store</mat-icon>MEDS MARKET</button>
         </div>
-    </mat-sidenav-content>
+        <div class="content mat-elevation-z8">
+            <div *ngIf="mainContent" class="principal-page">
+                <app-principal-page></app-principal-page>
+            </div>
+            <div *ngIf="profile">
+                <app-profile></app-profile>
+            </div>
+        </div>
+    </mat-sidenav-content> 
+
 </mat-sidenav-container>
