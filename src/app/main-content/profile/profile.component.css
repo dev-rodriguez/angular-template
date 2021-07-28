@@ -1,0 +1,59 @@
+.profile-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.personal-data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+.title-profile{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.input-data{
+    margin: 7px;
+}
+.label-data{
+    margin-left: 15px;
+}
+.mat-card{
+    width: 100%;
+    height: 100%;
+}
+
+.mat-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 100px;
+    width: 100%;
+    color: black;
+    margin:0;
+
+}
+
+input{
+    border-radius: 5px;
+}
+
+.img-data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.img-profile{
+    width: 250px;
+    border-radius: 50%;
+}
+
