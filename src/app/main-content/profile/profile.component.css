@@ -6,7 +6,7 @@
 .meds-informacion-personal {
     border-radius: 10px;
     height: 200px;
-    width: 600px;
+    width: 700px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
@@ -19,8 +19,16 @@
 }
 
 .meds-informacion-contacto { 
-    width: 280px;
+    width: 340px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 0;
+    padding: 0; */
+    
 }
 
 .meds-informacion-usario-logo{
@@ -51,4 +59,35 @@
     color: #4D4D4D;
     font-size: large;
     font-weight: bold;
+}
+
+.meds-informacion-datos-usuario{
+    color: #3873C4;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+.meds-informacion-datos-icon{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.meds-informacion-datos-subtitle{
+    color: #4D4D4D;
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0;
+    
+
+}
+
+.meds-informacion-datos-content{
+    color: #808080;
+    font-size: small;
+    font-weight: bold;
+    margin: 3px;
+    padding: 0;
+ 
 }
