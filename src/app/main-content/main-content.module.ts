@@ -9,8 +9,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { PrincipalPageComponent } from './principal-page/principal-page.component';
 import {MatCardModule} from '@angular/material/card';
+import { FormsModule } from '@angular/forms';
 import {MatGridListModule} from '@angular/material/grid-list';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatFormFieldModule,
     MatDatepickerModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    FormsModule,
+    BrowserAnimationsModule
     
     
     
