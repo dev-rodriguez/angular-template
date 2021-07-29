@@ -1,29 +1,142 @@
 .principal-page{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
 }
-.mat-card{
 
-}
 .mat-card:hover{
     cursor: pointer;
-
 }
 
-.mat-card-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-top: 100px;
-    width: 100%;
-    color: black;
-    margin:0;
-
-}
-.mat-card-image{
+mat-card{
     width: 450px;
 }
 
+.mat-card-image{
+    width: 100%;
+}
 
+.card-meds-te-recuerda{
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 250px;
+    width: 450px;
+    background-color: white;
+}
+
+.card-meds-image {
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 250px;
+    width: 450px;
+    background-color: white;
+}
+
+.meds-image{
+    width: 450px;
+}
+
+.label-meds-te-recuerda{
+    background-color: #3873C4;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    width: 150px;
+    font-size: small;
+    font-weight: bold;
+    margin-top: -12px;
+    margin-left: 12px;
+}
+
+.container-info-meds-te-recuerda{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: small;
+    width: 70%;
+    
+}
+
+.container-botones-meds-te-recuerda {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 30%;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.body-meds-te-recuerda {
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.boton-meds-te-recuerda {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    color: white;
+    font-size: small;
+    width: 100%;
+    text-align: center;
+}
+
+.boton-meds-te-recuerda:hover{
+    cursor: pointer;
+}
+
+.confirmar { 
+    background-color: #A8C723;
+}
+
+.no-asistire {
+    background-color: #3873C4;
+}
+
+.info-meds-te-recuerda-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #4D4D4D;
+}
+
+.icon-info-meds-te-recuerda-item {
+    margin-right: 5px;
+    color: #214296;
+    font-size: small;
+}
+
+.info-meds-te-recuerda-title{
+    color: #214296;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.offset { 
+    margin-top: 10px;
+}
+
+.card-meds { 
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-meds-footer {
+    background-color: #214296;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

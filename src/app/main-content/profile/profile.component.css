@@ -1,0 +1,54 @@
+.meds-perfil-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.meds-informacion-personal {
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.meds-informacion-extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.meds-informacion-contacto { 
+    width: 280px;
+    border-radius: 10px;
+}
+
+.meds-informacion-usario-logo{
+    width: 20%;
+    display: flex;
+}
+
+.meds-informacion-data{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.usuario-logo{
+    font-size: 90px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: #3873C4;
+}
+
+.meds-informacion-nombre {
+    color: #3873C4;
+    font-size: xx-large;
+}
+
+.meds-informacion-adicional { 
+    color: #4D4D4D;
+    font-size: large;
+    font-weight: bold;
+}

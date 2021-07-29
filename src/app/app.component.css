@@ -1,17 +1,137 @@
 mat-toolbar {
-    background: #004a9f;
+    background: #3873C4;
     color: white;
+    height: 100px;
 }
 
 mat-sidenav {
     margin: 16px;
-    width: 200px;
+    width: 250px;
     border-right: none;
-    background: #002b5c;
-    color: white;
-    border-radius: 10px;
+    background: #E6E6E6;
+    color: #4D4D4D;
+    border-radius: 2px;
     padding: 16px;
     text-align: center;
+}
+
+mat-sidenav #bienvenido-label{
+    color: #3873C4;
+    font-size: x-large;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.icon-menu-sidevar {
+    font-size: 4px;
+     margin-top: 15px;
+     margin-left: -15px;
+}
+
+.name {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+}
+
+.editar-perfil-label {
+    margin-top: -20px;
+    font-size: medium;
+    color: #999999;
+    text-align: left;
+    margin-left: -95px;
+    font-weight: bold;
+}
+
+.editar-perfil-label:hover {
+    cursor: pointer;
+}
+
+.editar-perfil-icon{
+    margin-top: 15px;
+    font-size: medium;
+    margin-right: 2px;
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.desktop-carousel{
+    display: flex;
+    border-radius: 10px;
+    margin: 16px;
+    margin-left: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-reserva-de-hora{
+    background-color: #EB8818;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+    height: 60px;
+}
+.button-telemedicina{
+    background-color: #F06600;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+}
+.button-meds-healthy{
+    background-color: #3873C4;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+}
+.button-meds-home{
+    background-color: #8263CE;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+}
+.button-meds-market{
+    background-color: #A8C723;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+}
+
+.principal-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: nowrap;
+
+}
+
+.title-portla-meds{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+.title-portla-meds .meds-bolder { 
+    font-weight: 900;
 }
 
 .content {
@@ -26,87 +146,4 @@ mat-sidenav {
     align-items: center;
     font-size: 2rem;
     color: lightgray;
-}
-
-mat-sidenav-container {
-    height: calc(100vh - 65px);
-}
-
-.menu-button {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.avatar {
-    margin-top: 16px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-.name {
-    margin-top: 8px;
-    font-weight: normal;
-}
-
-.designation {
-    margin-top: 2px;
-    font-size: 0.7rem;
-    color: lightgrey;
-}
-
-mat-divider {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-mat-icon {
-  margin-right: 8px;
-}
-
-
-.desktop-carousel{
-    display: flex;
-    border-radius: 10px;
-    margin: 16px;
-    margin-left: 32px;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.button-reserva-de-hora{
-    background-color: #ee7a1b;
-    color: #fff;
-    width: 200px
-}
-.button-telemedicina{
-    background-color: #ee4c1b;
-    color: #fff;
-    width: 200px
-}
-.button-meds-healthy{
-    background-color: #16b6e7;
-    color: #fff;
-    width: 200px
-}
-.button-meds-home{
-    background-color: #b21bee;
-    color: #fff;
-    width: 200px
-}
-.button-meds-market{
-    background-color: #11ce0a;
-    color: #fff;
-    width: 200px
-}
-
-.principal-page{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;    
-    flex-wrap: nowrap;
-
 }

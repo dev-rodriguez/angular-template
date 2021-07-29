@@ -7,37 +7,46 @@
             close
         </mat-icon>
     </button>
-    Mi MEDS
+    <div class="title-portla-meds">PORTAL MI<span class="meds-bolder">MEDS</span></div>
 </mat-toolbar>
 
 <mat-sidenav-container>
     <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
-
-        <img class="avatar mat-elevation-z8" src="https://source.unsplash.com/c_GmwfHBDzk/200x200" />
-
+        <h2 id="bienvenido-label">¡Bienvenido!</h2>
         <h4 class="name">Ignacio Rodriguez</h4>
-        <p class="designation">Meds member</p>
-
+        <a class="editar-perfil-label"><mat-icon class="editar-perfil-icon">edit</mat-icon>Editar perfil</a>
         <mat-divider></mat-divider>
 
         <button mat-button class="menu-button" (click)= showProfile()>
-            <mat-icon>person</mat-icon>
-            <span>Perfil</span>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Mi perfil</span>
         </button>
-        <button mat-button class="menu-button">
-            <mat-icon >today</mat-icon>
-            <span>Resultados de exámenes</span>
-        </button>
-        <button mat-button class="menu-button">
-            <mat-icon>info</mat-icon>
-            <span>Mis horas Médicas</span>
-        </button>
-
         <mat-divider></mat-divider>
-
-        <button mat-button class="menu-button">
-            <mat-icon>logout</mat-icon>
-            <span>Cerrar sesión</span>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Resultado de Exámenes</span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Mis Horas Médicas </span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Mis Kineseología</span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Solicitud de Documentos</span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Reembolso Web </span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Mis Seguros y Convenios</span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button" (click)= showProfile()>
+            <mat-icon class="icon-menu-sidevar">circle</mat-icon><span>Mis Vacunas</span>
         </button>
 
     </mat-sidenav>
